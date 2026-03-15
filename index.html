@@ -1,142 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andujar Transportation INC</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andujar Transportation INC — Vehicle & Freight Transport USA</title>
+<link rel="icon" type="image/png" href="img/logo_1.png">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- NAVBAR -->
-<header class="navbar">
-    <div class="logo">Andujar Transportation INC</div>
-
-    <div class="menu-toggle" id="menuToggle">
-        ☰
+<header class="navbar" id="navbar">
+    <div class="logo">
+        <span class="logo-main">Andujar Transportation</span>
+        <span class="logo-sub">INC &nbsp;·&nbsp; Est. USA</span>
     </div>
 
-<nav id="navMenu">
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#process">Shipping Process</a>
-    <a href="#contact">Contact Us</a>
-</nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
 
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="nav-cta">Get a Quote</a>
+    </nav>
 </header>
 
 <!-- HERO -->
 <section class="hero" id="home">
-    <img src="img/portada_1.png" alt="Hero">
+    <img src="img/portada_1.png" alt="Andujar Transportation — Vehicle Transport USA">
     <div class="hero-overlay">
-        <!-- <h1>Premium Vehicle Transportation</h1>
-        <p>Safe · Reliable · Nationwide</p> -->
+        <div class="hero-content">
+            <div class="hero-badge">Interstate Vehicle Transport</div>
+            <h1>Move Your<br><span>Vehicle</span><br>Anywhere</h1>
+            <p>Professional, insured vehicle and freight transportation across the United States. Enclosed and open transport — door to door.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-primary">Request a Quote</a>
+                <a href="#services" class="btn-outline">Our Services</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div class="stat">
+            <div class="stat-num">50+</div>
+            <div class="stat-label">States Covered</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">A2P</div>
+            <div class="stat-label">10DLC Compliant</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">24/7</div>
+            <div class="stat-label">Customer Support</div>
+        </div>
     </div>
 </section>
 
-<!-- ABOUT US -->
+<!-- ABOUT -->
 <section class="about" id="about">
-    <h2>About Us</h2>
-    <p>
-        We are an independent transportation company committed to delivering
-        reliable, transparent, and stress-free vehicle shipping services.
-        Our mission is to provide peace of mind while handling your valuable assets
-        with professionalism and care.
-    </p>
+    <div class="about-text reveal">
+        <div class="section-label">Who We Are</div>
+        <h2>Trusted Coast-to-Coast Transport</h2>
+        <p>Andujar Transportation INC provides interstate freight and vehicle transportation services throughout the United States. We coordinate with third-party logistics platforms and communicate directly with customers to ensure a seamless, stress-free experience.</p>
+        <p>From the moment you request a quote to the final delivery, our team keeps you informed every step of the way — via phone and SMS updates you actually want to receive.</p>
+        <div class="about-features">
+            <div class="feature-item">Fully Insured</div>
+            <div class="feature-item">Door-to-Door</div>
+            <div class="feature-item">Real-Time Updates</div>
+            <div class="feature-item">TCPA Compliant</div>
+            <div class="feature-item">Enclosed & Open</div>
+            <div class="feature-item">Nationwide</div>
+        </div>
+    </div>
+    <div class="about-image reveal">
+        <img src="img/service0.jpg" alt="Professional vehicle transport">
+        <div class="about-image-accent"></div>
+    </div>
 </section>
-
-
 
 <!-- SERVICES -->
 <section class="services" id="services">
-    <h2>We Offer Many Transport Options</h2>
-
+    <div class="section-header reveal">
+        <span class="section-label">What We Offer</span>
+        <h2>Transport Options</h2>
+        <p>Choose the service that best fits your vehicle and budget.</p>
+    </div>
     <div class="services-grid">
-        <div class="card">
-            <img src="img/service2.jpg">
-            <h3>Single Vehicle Enclosed</h3>
-            <p>Maximum protection for exotic or luxury vehicles.</p>
+        <div class="card reveal">
+            <div class="card-img-wrap">
+                <img src="img/service2.jpg" alt="Enclosed Transport">
+                <span class="card-tag">Premium</span>
+            </div>
+            <div class="card-body">
+                <h3>Enclosed Transport</h3>
+                <p>Maximum protection for luxury, exotic, classic, or high-value vehicles. Shielded from weather, road debris, and external elements.</p>
+            </div>
         </div>
-
-        <div class="card">
-            <img src="img/service3.jpg">
-            <h3>Open Car Transport</h3>
-            <p>The most affordable and common option.</p>
+        <div class="card reveal">
+            <div class="card-img-wrap">
+                <img src="img/service3.jpg" alt="Open Transport">
+                <span class="card-tag">Popular</span>
+            </div>
+            <div class="card-body">
+                <h3>Open Transport</h3>
+                <p>The most affordable and widely-used transport method. Ideal for standard vehicles with reliable coast-to-coast coverage.</p>
+            </div>
         </div>
-
-        <div class="card">
-            <img src="img/service4.jpg">
-            <h3>Enclosed Transport</h3>
-            <p>Ideal for high-value or classic cars.</p>
-        </div>
-
-        <div class="card">
-            <img src="img/service5.jpg">
-            <h3>Motorcycle Transport</h3>
-            <p>Fully enclosed and soft-strapped transport.</p>
-        </div>
-
-        <div class="card">
-            <img src="img/service6.jpg">
-            <h3>Boat & Yacht</h3>
-            <p>Licensed and insured marine transport.</p>
-        </div>
-
-        <div class="card">
-            <img src="img/service7.jpg">
-            <h3>RV & Mobile Homes</h3>
-            <p>Safe hauling nationwide.</p>
+        <div class="card reveal">
+            <div class="card-img-wrap">
+               <img src="img/service1.jpg" alt="Freight Transport">
+                <span class="card-tag">Available</span>
+            </div>
+            <div class="card-body">
+                <h3>Freight Services</h3>
+                <p>Coordinated freight solutions through trusted logistics platforms. We handle dispatching, confirmations, and delivery updates.</p>
+            </div>
         </div>
     </div>
 </section>
 
-
-<!-- SHIPPING PROCESS -->
+<!-- PROCESS -->
 <section class="process" id="process">
-    <h2>Shipping Process</h2>
-
+    <div class="section-header reveal">
+        <span class="section-label">How It Works</span>
+        <h2>Shipping Process</h2>
+        <p>Four simple steps from quote to delivery.</p>
+    </div>
     <div class="process-steps">
-        <div class="step">
-            <span>1</span>
-            <h3>Request a Quote</h3>
-            <p>Contact us with your vehicle details and destination.</p>
+        <div class="step reveal">
+            <div class="step-num">1</div>
+            <h3>Request Quote</h3>
+            <p>Submit your vehicle details, origin, and destination using our form below.</p>
         </div>
-
-        <div class="step">
-            <span>2</span>
-            <h3>Schedule Pickup</h3>
-            <p>We arrange a convenient pickup time and location.</p>
+        <div class="step reveal">
+            <div class="step-num">2</div>
+            <h3>Confirmation</h3>
+            <p>We confirm availability, scheduling, and pricing via phone or SMS.</p>
         </div>
-
-        <div class="step">
-            <span>3</span>
-            <h3>Vehicle Transport</h3>
-            <p>Your vehicle is transported safely using the selected method.</p>
+        <div class="step reveal">
+            <div class="step-num">3</div>
+            <h3>Pickup</h3>
+            <p>Our carrier arrives at your location on the agreed date and time.</p>
         </div>
-
-        <div class="step">
-            <span>4</span>
+        <div class="step reveal">
+            <div class="step-num">4</div>
             <h3>Delivery</h3>
-            <p>Vehicle delivered securely to the final destination.</p>
+            <p>Your vehicle arrives safely. We send updates throughout the journey.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-us">
+    <div class="section-header reveal">
+        <span class="section-label">Why Choose Us</span>
+        <h2>Built on Reliability</h2>
+    </div>
+    <div class="why-grid">
+        <div class="why-card reveal">
+            <span class="why-icon">🛡️</span>
+            <h3>Fully Insured</h3>
+            <p>Every shipment is covered. We work only with properly licensed and insured carriers across the U.S.</p>
+        </div>
+        <div class="why-card reveal">
+            <span class="why-icon">📍</span>
+            <h3>Real-Time Tracking</h3>
+            <p>Stay informed with SMS updates at every key stage — pickup, transit, and delivery.</p>
+        </div>
+        <div class="why-card reveal">
+            <span class="why-icon">📞</span>
+            <h3>Dedicated Support</h3>
+            <p>Our team is available to answer questions, provide updates, and resolve any issues promptly.</p>
+        </div>
+        <div class="why-card reveal">
+            <span class="why-icon">✅</span>
+            <h3>TCPA Compliant</h3>
+            <p>All our messaging practices comply with A2P 10DLC, TCPA, and CTIA standards. Your data is never sold.</p>
         </div>
     </div>
 </section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
-    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+        <div class="contact-info reveal">
+            <span class="section-label">Get In Touch</span>
+            <h2>Request a Free Quote</h2>
+            <p>Fill out the form and our team will get back to you with pricing and availability. No obligation.</p>
 
-    <div class="contact-info">
-        <p><strong>Phone:</strong> +1 (000) 000-0000</p>
-        <p><strong>Email:</strong> info@andujartransportation.com</p>
-        <p><strong>Location:</strong> United States</p>
+            <div class="contact-detail">
+                <span class="d-icon">📞</span>
+                <div class="d-content">
+                    <div class="d-label">Phone / SMS</div>
+                    <div class="d-value">+1 (551) 204-6507</div>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <span class="d-icon">🌐</span>
+                <div class="d-content">
+                    <div class="d-label">Coverage</div>
+                    <div class="d-value">All 50 U.S. States</div>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <span class="d-icon">🕐</span>
+                <div class="d-content">
+                    <div class="d-label">Response Time</div>
+                    <div class="d-value">Within 1 Business Day</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form reveal">
+            <form id="quoteForm">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+                <input type="email" placeholder="Email Address" required>
+                <div class="form-row">
+                    <input type="text" placeholder="Pickup Location (City, State)">
+                    <input type="text" placeholder="Delivery Location (City, State)">
+                </div>
+                <textarea placeholder="Vehicle Details (Year, Make, Model) & any special instructions" required></textarea>
+
+                <div class="sms-consent">
+                    <input type="checkbox" id="smsConsent" required>
+                    <label for="smsConsent">
+                        By checking this box, I consent to receive SMS messages from <strong>Andujar Transportation INC</strong> related to quotes, pickup/delivery confirmations, dispatch coordination, and service updates. Message frequency varies. Message &amp; data rates may apply. Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for assistance. See our <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms &amp; Conditions</a>.
+                    </label>
+                </div>
+
+                <button type="submit">Submit Request →</button>
+            </form>
+        </div>
     </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-    <p>© 2026 Andujar Transportation INC. All Rights Reserved.</p>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <span class="logo-main">Andujar Transportation</span>
+            <span class="logo-sub" style="display:block;margin-top:4px">INC &nbsp;·&nbsp; United States</span>
+            <p>Professional, insured vehicle and freight transportation services nationwide. A2P 10DLC compliant. TCPA compliant.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#process">Shipping Process</a>
+            <a href="#contact">Request a Quote</a>
+        </div>
+        <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <p>SMS opt-out: Reply STOP</p>
+            <p>SMS help: Reply HELP</p>
+            <p>📞 888-531-3887 (Opt. 2)</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 Andujar Transportation INC. All Rights Reserved.</span>
+        <span>
+            <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+            <a href="terms.html">Terms &amp; Conditions</a>
+        </span>
+    </div>
 </footer>
 
 <script src="script.js"></script>
