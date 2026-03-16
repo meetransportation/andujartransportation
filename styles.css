@@ -576,6 +576,10 @@ body {
     color: var(--light);
 }
 
+.d-value a {
+    color: aqua;
+}
+
 .contact-form {
     background: var(--mid);
     border: 1px solid var(--border);
